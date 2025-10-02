@@ -2,7 +2,7 @@
 pragma solidity 0.8.30;
 
 /// @title ChangeHelloWorld
-/// @author Developer
+/// @author 0x71pp17
 /// @notice A simple contract to store and update a string value
 contract ChangeHelloWorld {
     // State variable: Stores a string that can be accessed externally due to 'public'
