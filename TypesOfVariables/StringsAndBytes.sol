@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.15;
 
-/// @title ExampleStrings
+/// @title StringsAndBytes
 /// @author 0x71pp17
 /// @notice Demonstrates string and bytes usage, comparison, and length operations
 contract StringsAndBytes {
