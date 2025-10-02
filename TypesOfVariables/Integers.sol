@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.30;
 
-/// @title ExampleUint
+/// @title Integers
 /// @author 0x71pp17
 /// @notice Demonstrates unsigned and signed integer types, ranges, and arithmetic operations
 contract Integers {
