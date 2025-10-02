@@ -2,7 +2,7 @@
 pragma solidity 0.8.30;
 
 /// @title HelloWorld
-/// @author Developer
+/// @author 0x71pp17
 /// @notice A minimal contract that stores a public string
 contract HelloWorld {
     // State variable: Declares a string that is publicly accessible
