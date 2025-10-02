@@ -1,5 +1,4 @@
 // SPDX-License-Identifier: MIT
-
 pragma solidity 0.8.30;
 
 /// @title ChangeHelloWorld
@@ -11,11 +10,9 @@ contract ChangeHelloWorld {
     string public myString = "Hello world";
 
     /// @notice Updates the value of `myString`
-    /// @dev This function allows any user to change the string stored in the contract
+    /// @dev This function acts as a setter to change the stored string
     /// @param _myString The new string value to set
     function updateOurString(string memory _myString) public {
-        // Assign the new value to the state variable
         myString = _myString;
     }
 }   
- 
