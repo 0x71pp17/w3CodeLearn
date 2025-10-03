@@ -20,7 +20,7 @@ interface IERC20 {
 /// @notice Enables users to purchase ERC20 tokens with ETH
 /// @dev The contract owner must ensure sufficient token balance before sale
 contract ERC20TokenSale {
-    // State variable: Price of one token in Wei (1 ether = 1 ETH)
+    // State variable: Price of one token in Wei (1 ether = 10^18 Wei)
     uint tokenPriceInWei = 1 ether;
 
     // State variable: Reference to the ERC20 token being sold
