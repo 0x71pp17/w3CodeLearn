@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.30;
 
-/// @title Mapping
+/// @title UseMapping
 /// @author 0x71pp17
 /// @notice Tracks and manages user balances with deposit and withdrawal functionality
-contract Mapping {
+contract UseMapping {
 
     // State variable: Maps user addresses to their deposited balances
     mapping(address => uint) public balanceReceived;
