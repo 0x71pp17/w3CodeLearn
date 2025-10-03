@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.30;
 
-/// @title UseStruct
+/// @title Structs
 /// @author 0x71pp17
 /// @notice Stores details of the last incoming payment using a struct
-contract UseStruct {
+contract Structs {
 
     // Struct: Groups related data for a payment (sender and amount)
     struct PaymentReceivedStruct {
