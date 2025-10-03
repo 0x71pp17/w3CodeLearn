@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.15;
 
-/// @title Address
+/// @title Addresses
 /// @author 0x71pp17
 /// @notice Demonstrates address manipulation and balance querying
-contract Address {
+contract Addresses {
     // Public state variable to store an Ethereum address
     address public someAddress;
 
