@@ -2,7 +2,7 @@
 pragma solidity 0.8.30;
 
 /// @title NamedExceptions
-/// @author Dev
+/// @author 0x71pp17
 /// @notice Demonstrates the use of custom errors with parameters in Solidity
 contract NamedExceptions {
     /// @notice Custom error with two string parameters for detailed revert messages
