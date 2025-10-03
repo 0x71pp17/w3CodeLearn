@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.30;
 
-/// @title Boolean
+/// @title Booleans
 /// @author 0x71pp17
 /// @notice A simple contract to manage a boolean state variable
-contract Boolean {
+contract Booleans {
     // State variable: Declares a boolean with default value 'false'
     // 'public' generates an automatic getter function for external access
     bool public myBool;
