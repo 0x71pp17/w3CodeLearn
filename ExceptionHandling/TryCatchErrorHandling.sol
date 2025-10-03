@@ -2,7 +2,7 @@
 pragma solidity 0.8.30;
 
 /// @title WillThrow
-/// @author Dev
+/// @author 0x71pp17
 /// @notice A contract that demonstrates a function reverting with an error message
 contract WillThrow {
     /// @notice Function that always reverts with a custom error message
@@ -13,7 +13,7 @@ contract WillThrow {
 }
 
 /// @title TryCatchErrorHandling
-/// @author Dev
+/// @author 0x71pp17
 /// @notice A contract that handles errors from external calls using try/catch
 contract TryCatchErrorHandling {
     /// @notice Event emitted when an error is caught
