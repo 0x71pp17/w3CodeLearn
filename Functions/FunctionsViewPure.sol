@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.30;
 
-/// @title Functions
+/// @title FunctionsViewPure
 /// @author 0x71pp17
 /// @notice Demonstrates stateless and state-reading functions using view and pure modifiers
-contract Functions {
+contract FunctionsViewPure {
 
     // State variable: Stores a number accessible by all functions within the contract
     // 'public' generates a getter function automatically
