@@ -31,6 +31,7 @@ receive() exists?        fallback()
 receive() fallback()  
 ```
 
+---
 
 ## Chainlink Resources: Data, Docs & Faucets
 - **[data.chain.link](https://data.chain.link)**: Official Chainlink data page for viewing price feeds and oracle performance.
