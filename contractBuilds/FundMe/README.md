@@ -31,7 +31,10 @@ receive() exists?        fallback()
 receive() fallback()  
 ```
 
-### Chainlink Docs
+### Chainlink Resources: Docs & Faucets
 
-- - **[docs.chain.link](https://docs.chain.link)**: Official Chainlink documentation hub for developers, covering Data Feeds, Functions, VRF, Automation, and more.
+- **[docs.chain.link](https://docs.chain.link)**: Official Chainlink documentation hub for developers, covering Data Feeds, Functions, VRF, Automation, and more.
+- **[faucets.chain.link](https://faucets.chain.link)**: Official Chainlink faucet for obtaining testnet LINK on various networks.
+
+
 
