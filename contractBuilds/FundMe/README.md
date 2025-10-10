@@ -12,6 +12,7 @@ A decentralized crowdfunding contract where users can send ETH, with a minimum a
 ### Usage
 Funders send ETH to the contract. If the value meets the USD minimum, their address and amount are recorded. The owner can later withdraw all funds.   
 
+---
 
 ### Ether Reception Flow
 Based on [Solidity by Example](https://solidity-by-example.org/fallback/):
