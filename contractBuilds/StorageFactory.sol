@@ -12,16 +12,18 @@ contract StorageFactory {
     // Dynamic array to store instances of SimpleStorage contracts created by this factory
     SimpleStorage[] public listOfSimpleStorageContracts;
 
-    // Deploys a new SimpleStorage contract and saves its address in the array
+    /// @notice Deploys a new SimpleStorage contract and adds its reference to the list
+    /// @dev Uses the 'new' keyword to create a contract instance on the blockchain
     function createSimpleStorageContract() public {
         SimpleStorage simpleStorageContractVariable = new SimpleStorage();
         // SimpleStorage simpleStorage = new SimpleStorage();
         listOfSimpleStorageContracts.push(simpleStorageContractVariable);
     }
 
-    // Calls the store function on a specific SimpleStorage contract from the list
-    // _simpleStorageIndex: position of the contract in the array
-    // _simpleStorageNumber: value to store in that contract
+    /// @notice Stores a number in a specific SimpleStorage contract instance
+    /// @dev Performs an external call to the 'store' function of the targeted SimpleStorage contract
+    /// @param _simpleStorageIndex Index of the SimpleStorage contract in the list
+    /// @param _simpleStorageNumber Value to store in the target contract
     function sfStore(
         uint256 _simpleStorageIndex,
         uint256 _simpleStorageNumber
@@ -34,9 +36,10 @@ contract StorageFactory {
         );
     }
 
-    // Calls the retrieve function on a specific SimpleStorage contract
-    // _simpleStorageIndex: position of the contract in the array
-    // Returns the stored value from that contract
+    /// @notice Retrieves a number from a specific SimpleStorage contract instance
+    /// @dev Calls the 'retrieve' view function of the target contract
+    /// @param _simpleStorageIndex Index of the SimpleStorage contract in the list
+    /// @return The stored number from the target contract
     function sfGet(uint256 _simpleStorageIndex) public view returns (uint256) {
         return listOfSimpleStorageContracts[_simpleStorageIndex].retrieve();
     }
