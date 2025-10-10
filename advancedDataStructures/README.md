@@ -1,4 +1,4 @@
-## Solidity Advanced Data Structures Learning Module
+## Solidity Advanced Data Structures
 
 A focused project area for complex data organization concepts in Solidity using structs, mappings, and arrays.
 
