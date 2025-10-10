@@ -1,4 +1,4 @@
-## Solidity Types of Variables Learning Module
+## Solidity Types of Variables
 
 A focused project area for variable types in Solidity, covering state, local, and global variables, along with core data types.
 
