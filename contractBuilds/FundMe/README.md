@@ -41,6 +41,6 @@ receive() fallback()
 - **[Using Data Feeds](https://docs.chain.link/data-feeds/using-data-feeds)**: Step-by-step guide with **Solidity code** for reading data feeds.
 - **[Chainlink VRF](https://docs.chain.link/vrf)**: Official documentation for Chainlink's Verifiable Random Function, including setup and usage guides.
 - **[Chainlink Automation](https://docs.chain.link/chainlink-automation)**: Official documentation for Chainlink `Automation` (formerly known as `Keepers`), enabling automated smart contract execution based on time, logs, or custom logic.
-
+- **[Chainlink Functions](https://docs.chain.link/chainlink-functions)**: Official documentation for Chainlink Functions, enabling developers to connect smart contracts to any API with serverless computation.
 
 
