@@ -6,7 +6,8 @@ A focused project area for mastering error handling mechanisms in Solidity, incl
 - **`require`**: Validates inputs and conditions; reverts transaction and refunds unused gas if false. Used for user-facing validation.
 - **`revert`**: Manually triggers a revert with an optional reason string; useful for complex error conditions.
 - **`assert`**: Checks for internal invariants; reverts transaction and consumes all gas if false, indicating a critical bug.
-- **Custom Errors**: Gas-efficient error definitions introduced in Solidity 0.8.4, allowing parameterized error messages.
+- **`try`/`catch`**: Handle failures from **external function calls** or **contract creation**. Only exceptions during the external call are caught, not internal ones.
+- **Custom Errors (introduced in Solidity 0.8.4,)**: Gas-efficient, parameterized errors defined with the `error` keyword.
 
 ### Usage
 Each `.sol` file includes NatSpec comments (`@title`, `@notice`, `@dev`, `@param`, `@return`) that provide standardized documentation directly within the code. 
