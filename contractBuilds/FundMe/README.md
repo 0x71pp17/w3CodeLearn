@@ -16,6 +16,7 @@ Funders send ETH to the contract. If the value meets the USD minimum, their addr
 ### Ether Reception Flow
 Based on [Solidity by Example](https://solidity-by-example.org/fallback/):
 
+```
              send Ether
                   |
        msg.data is empty?
@@ -27,3 +28,4 @@ receive() exists?        fallback()
  yes          no  
   |            |  
 receive() fallback()  
+```
