@@ -37,3 +37,5 @@ receive() fallback()
 - **[data.chain.link](https://data.chain.link)**: Official Chainlink data page for viewing price feeds and oracle performance.
 - **[docs.chain.link](https://docs.chain.link)**: Official Chainlink documentation for developers.
 - **[faucets.chain.link](https://faucets.chain.link)**: Official Chainlink faucet for testnet LINK.
+
+- **[Using Data Feeds](https://docs.chain.link/data-feeds/using-data-feeds)**: Step-by-step guide with **Solidity code** for reading data feeds.
