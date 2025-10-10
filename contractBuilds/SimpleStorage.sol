@@ -21,19 +21,26 @@ contract SimpleStorage {
     // Mapping to associate a person's name directly with their favorite number (public getter)
     mapping(string => uint256) public nameToFavoriteNumber;
 
-    // Updates the stored favorite number with the provided value
+    /// @notice Updates the stored favorite number in the contract
+    /// @dev Assigns the provided value to the state variable `myFavoriteNumber`
+    /// @param _favoriteNumber The new favorite number to store
     function store(uint256 _favoriteNumber) public {
         myFavoriteNumber = _favoriteNumber;
     }
 
-    // Reads and returns the current favorite number (view function, no gas cost to call)
+    /// @notice Retrieves the currently stored favorite number
+    /// @dev This is a view function, meaning it does not modify the state and incurs no gas cost when called
+    /// @return The current value of `myFavoriteNumber`
     function retrieve() public view returns (uint256) {
         return myFavoriteNumber;
     }
 
-    // Adds a new person to the list and records their data in the mapping
+    /// @notice Creates and adds a new person to the list of people and updates the name-to-number mapping
+    /// @dev Uses `push` to append a new `Person` struct to `listOfPeople` and updates the `nameToFavoriteNumber` mapping
+    /// @param _name The name of the person to add
+    /// @param _favoriteNumber The favorite number of the person to add
     function addPerson(string memory _name, uint256 _favoriteNumber) public {
         listOfPeople.push(Person(_favoriteNumber, _name));
         nameToFavoriteNumber[_name] = _favoriteNumber;
-    }
+    }   
 }   
