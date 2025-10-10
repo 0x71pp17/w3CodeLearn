@@ -1,9 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.19;
 
-
-// A simple contract to demonstrate basic Solidity concepts like state variables, 
-// structs, arrays, mappings, and functions for storing and retrieving data.
+/// @title SimpleStorage
+/// @author 0x71pp17
+/// @notice A simple contract to demonstrate basic Solidity concepts like state variables,
+///         structs, arrays, mappings, and functions for storing and retrieving data.
 contract SimpleStorage {
     // State variable to store a favorite number persistently on the blockchain
     uint256 myFavoriteNumber;
